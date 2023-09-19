@@ -1,4 +1,4 @@
-#' Dijkstra's Algorithm 
+#' Dijkstra's Algorithm
 #'
 #' The algorithm takes a graph and an initial node and calculates the shortest path from the
 #"initial node to every other node in the graph
@@ -43,6 +43,11 @@ dijkstra <- function(graph, init_node) {
       }
     }
   }
-  
+
   return(short)
 }
+
+#' @name wiki_graph
+#' @docType data
+#' @references \url {https://en.wikipedia.org/wiki/Dijkstra27s_algorithm}
+#' @keywords data
