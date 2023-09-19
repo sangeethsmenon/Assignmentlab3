@@ -47,7 +47,4 @@ dijkstra <- function(graph, init_node) {
   return(short)
 }
 
-#' @name wiki_graph
-#' @docType data
-#' @references \url {https://en.wikipedia.org/wiki/Dijkstra27s_algorithm}
-#' @keywords data
+
